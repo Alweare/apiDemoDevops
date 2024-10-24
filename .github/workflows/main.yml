@@ -1,5 +1,8 @@
 name: Azure infini et au dela
-on: workflow_dispatch
+on:
+  push:
+    branches:
+      -toAzurev2
 
 jobs:
   docker:
