@@ -14,15 +14,10 @@ public class controller {
 //il était une fois un petit pushazeazeaze
 @GetMapping("/aidemoi")
     public Formateur gregory() {
+    String test = "";
 //azeazeaazeazeaze
 //azeazeiititititititit
     return  new Formateur("Francois", "francois@alaide.fr", LocalDateTime.now());
 }
-//azeazeazeazeazeazeaze
-//azrazrazrazeazeazeazeazeazeaze
-//azeazeazeazeaze
-    //azeazeazeazeaze
-    //azeazeazeaze
-//azeazeaze
-    //JON AI MARRE
+
 }
