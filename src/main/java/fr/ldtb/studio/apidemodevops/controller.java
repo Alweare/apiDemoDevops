@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 @RestController
 @RequestMapping("/gregory")
 public class controller {
-//il était une fois un petit push
+//il était une fois un petit pushazeazeaze
 @GetMapping("/aidemoi")
     public Formateur gregory() {
 
