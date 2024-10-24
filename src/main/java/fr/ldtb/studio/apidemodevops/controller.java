@@ -14,7 +14,7 @@ public class controller {
 //il était une fois un petit pushazeazeaze
 @GetMapping("/aidemoi")
     public Formateur gregory() {
-//azeazea
+//azeazeaazeazeaze
 //azeazeiititititititit
     return  new Formateur("Francois", "francois@alaide.fr", LocalDateTime.now());
 }
