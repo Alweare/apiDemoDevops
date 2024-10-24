@@ -1,5 +1,5 @@
 name: Azure infini et au dela
-on: 
+on:
   push:
     branches:
       -toAzurev2
