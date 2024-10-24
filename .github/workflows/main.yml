@@ -1,0 +1,36 @@
+name: Azure infini et au dela
+on: workflow_dispatch
+
+jobs:
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          token: ${{secrets.PAT}}
+      - name: Autoriser à lire le repo
+        uses: actions/checkout@v4
+      - name: Configurer la JVM
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+      - name: Login to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+      - name: Build and push
+        uses: docker/build-push-action@v6
+        with:
+          push: true
+          tags: alweare/devopsdemo
+
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Déployer sur Azure
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: monapp 
+          publish-profile: ${{ secrets.secret }} 
