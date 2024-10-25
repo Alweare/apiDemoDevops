@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="fr.ldtb.studio.apidemodevops.ApiDemoDevopsApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-10-25T06:53:54" hostname="21SE36-JRBVVD3" time="0.514">
+<testsuite name="fr.ldtb.studio.apidemodevops.ApiDemoDevopsApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-10-25T08:55:35" hostname="21SE36-JRBVVD3" time="0.473">
   <properties/>
-  <testcase name="contextLoads()" classname="fr.ldtb.studio.apidemodevops.ApiDemoDevopsApplicationTests" time="0.514"/>
-  <system-out><![CDATA[08:53:52.968 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [fr.ldtb.studio.apidemodevops.ApiDemoDevopsApplicationTests]: ApiDemoDevopsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-08:53:53.066 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration fr.ldtb.studio.apidemodevops.ApiDemoDevopsApplication for test class fr.ldtb.studio.apidemodevops.ApiDemoDevopsApplicationTests
+  <testcase name="contextLoads()" classname="fr.ldtb.studio.apidemodevops.ApiDemoDevopsApplicationTests" time="0.473"/>
+  <system-out><![CDATA[10:55:34.534 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [fr.ldtb.studio.apidemodevops.ApiDemoDevopsApplicationTests]: ApiDemoDevopsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:55:34.625 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration fr.ldtb.studio.apidemodevops.ApiDemoDevopsApplication for test class fr.ldtb.studio.apidemodevops.ApiDemoDevopsApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -14,9 +14,9 @@
 
  :: Spring Boot ::                (v3.3.4)
 
-2024-10-25T08:53:53.311+02:00  INFO 13252 --- [apiDemoDevops] [    Test worker] f.l.s.a.ApiDemoDevopsApplicationTests    : Starting ApiDemoDevopsApplicationTests using Java 17.0.12 with PID 13252 (started by yrenarddumont2024 in D:\code den\apiDemoDevops)
-2024-10-25T08:53:53.312+02:00  INFO 13252 --- [apiDemoDevops] [    Test worker] f.l.s.a.ApiDemoDevopsApplicationTests    : No active profile set, falling back to 1 default profile: "default"
-2024-10-25T08:53:54.019+02:00  INFO 13252 --- [apiDemoDevops] [    Test worker] f.l.s.a.ApiDemoDevopsApplicationTests    : Started ApiDemoDevopsApplicationTests in 0.855 seconds (process running for 1.871)
+2024-10-25T10:55:34.879+02:00  INFO 14536 --- [apiDemoDevops] [    Test worker] f.l.s.a.ApiDemoDevopsApplicationTests    : Starting ApiDemoDevopsApplicationTests using Java 17.0.12 with PID 14536 (started by yrenarddumont2024 in D:\code den\apiDemoDevops)
+2024-10-25T10:55:34.880+02:00  INFO 14536 --- [apiDemoDevops] [    Test worker] f.l.s.a.ApiDemoDevopsApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-10-25T10:55:35.554+02:00  INFO 14536 --- [apiDemoDevops] [    Test worker] f.l.s.a.ApiDemoDevopsApplicationTests    : Started ApiDemoDevopsApplicationTests in 0.829 seconds (process running for 2.67)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
