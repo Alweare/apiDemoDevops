@@ -9,17 +9,17 @@ import org.springframework.web.bind.annotation.RestController;
 import java.time.LocalDateTime;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/gregory")
 public class controller {
-
-@GetMapping("/gregory/aidemoi")
+//il était une fois un petit pushazeazeaze
+@GetMapping("/aidemoi")
     public Formateur gregory() {
-
+    String test = "";
+//azeazeaazeazeazeazeazeazea
+//azeazeiititititititit
     return  new Formateur("Francois", "francois@alaide.fr", LocalDateTime.now());
 }
-    @GetMapping()
-    public Formateur Fred() {
 
-        return  new Formateur("FredoLEfoufo", "fred@alaide.fr", LocalDateTime.now());
-    }
+//azeazeazeaze
+//le dernier test ?
 }
