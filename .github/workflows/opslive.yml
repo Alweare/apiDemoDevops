@@ -35,5 +35,5 @@ jobs:
       - name: Déployer sur Azure
         uses: azure/webapps-deploy@v2
         with:
-          app-name: testdevops
-          publish-profile: ${{ secrets.PUBLISH_PROFILE_V2 }}
+          app-name: devopsLive
+          publish-profile: ${{ secrets.PUBLISH_PROFILE }}
