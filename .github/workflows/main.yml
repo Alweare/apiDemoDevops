@@ -27,7 +27,7 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: alweare/devopsdemo
+          tags: alweare/devopsdemo:1.0
 
   deploy:
     runs-on: ubuntu-latest
@@ -35,5 +35,5 @@ jobs:
       - name: Déployer sur Azure
         uses: azure/webapps-deploy@v2
         with:
-          app-name: monapp 
+          app-name: monApp
           publish-profile: ${{ secrets.secret }} 
