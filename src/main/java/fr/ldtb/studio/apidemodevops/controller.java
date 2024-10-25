@@ -10,21 +10,15 @@ import java.time.LocalDateTime;
 
 @RestController
 public class controller {
-//il était une fois un petit pushazeazeaze
+
 @GetMapping("/gregory/aidemoi")
     public Formateur gregory() {
-    String test = "";
-//azeazeaazeazeazeazeazeazea
-//azeazeiititititititit
+
     return  new Formateur("Francois", "francois@alaide.fr", LocalDateTime.now());
 }
-    @GetMapping("/")
+    @GetMapping()
     public Formateur Fred() {
-        String test = "";
-//azeazeaazeazeazeazeazeazea
-//azeazeiititititititit
-        return  new Formateur("Francois", "francois@alaide.fr", LocalDateTime.now());
+
+        return  new Formateur("FredoLEfoufo", "fred@alaide.fr", LocalDateTime.now());
     }
-//azeazeazeaze
-//le dernier test ?
 }
