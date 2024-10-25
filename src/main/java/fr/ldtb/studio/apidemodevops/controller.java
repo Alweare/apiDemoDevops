@@ -7,22 +7,23 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.time.LocalDateTime;
-
+//c'est ce qui en fait une API REST MDR
 @RestController
-@RequestMapping("/gregory")
+@RequestMapping("/")
 public class controller {
-//il était une fois un petit pushazeazeaze
+
 @GetMapping("/aidemoi")
     public Formateur gregory() {
-//azeazeaazeazeaze
-//azeazeiititititititit
+    String test = "";
+
     return  new Formateur("Francois", "francois@alaide.fr", LocalDateTime.now());
 }
-//azeazeazeazeazeazeaze
-//azrazrazrazeazeazeazeazeazeaze
-//azeazeazeazeaze
-    //azeazeazeazeaze
-    //azeazeazeaze
-//azeazeaze
-    //JON AI MARRE
+@GetMapping()
+    public Formateur Arnaud() {
+    String test = "";
+
+    return  new Formateur("Arnaud", "Arnaud@alaide.fr", LocalDateTime.now());
+}
+
+
 }
