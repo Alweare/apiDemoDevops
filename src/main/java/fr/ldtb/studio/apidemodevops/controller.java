@@ -24,6 +24,6 @@ public class controller {
 
     return  new Formateur("Arnaud", "Arnaud@alaide.fr", LocalDateTime.now());
 }
-
+//this is a test
 
 }
